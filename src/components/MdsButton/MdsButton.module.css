@@ -1,0 +1,55 @@
+.light-fire {
+  background-color: #FDD8CE;
+}
+
+.fire {
+  background-color: #F96E46;
+}
+
+.light-ocean {
+  background-color: #CCFBFF;
+}
+
+.ocean {
+  background-color: #00E8FC;
+}
+
+.white {
+  background-color: #FCF9F4;
+}
+
+.light-grass {
+  background-color: #D4F7ED;
+}
+
+.grass {
+  background-color: #7AE7C7;
+}
+
+.light-gray {
+  background-color: #E3E5E8;
+}
+
+.dark-gray {
+  background-color: #545863;
+}
+
+.BC-dark {
+  background-color: #2D2F35;
+}
+
+.light-sun {
+  background-color: #FDF1CE;
+}
+
+.sun {
+  background-color: #F9C846;
+}
+
+.pink {
+  background-color: #FFE3E3;
+}
+
+.MdsButton .contained {
+  background-color: #7AE7C7;
+}/*# sourceMappingURL=MdsButton.module.css.map */

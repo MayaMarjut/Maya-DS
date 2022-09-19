@@ -1,0 +1,30 @@
+@use '../abstract' as *;
+
+button {
+    margin: 10px 0;
+    padding: 0 5px;
+    display: block;
+    width: 119px;
+    height: 38px;
+    left: 43px;
+    top: 189px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    
+
+    &.maya-ds{
+        background-color: red;
+    }
+}
+
+
+
+.primary {
+    background-color: $ocean;
+    border: 1px solid $ocean;
+}
+
+.secondary {
+    background-color: $fire;
+    border: 1px solid $fire;
+}

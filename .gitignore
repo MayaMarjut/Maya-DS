@@ -1,5 +1,17 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Compiled class files
+*.class
+
+# Log file
+*.log
+
+# Assests/
+assests/
+
+# Ignore all generated files
+package-lock.json
+
 # dependencies
 /node_modules
 /.pnp
@@ -13,6 +25,8 @@
 
 # misc
 .DS_Store
+.cache
+.settings
 .env.local
 .env.development.local
 .env.test.local

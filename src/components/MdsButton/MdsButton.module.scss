@@ -1,0 +1,19 @@
+@import "../../scss/abstract/colors";
+
+.MdsButton {
+  .root {
+    .primary {
+      background-color: $ocean;
+    }
+    .secondary {
+      background-color: $fire;
+    }
+    .success {
+      background-color: $pink;
+    }
+    .custom {
+      background-color: $pink;
+      font-size: large;
+    }
+  }
+}
