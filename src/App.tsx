@@ -1,6 +1,6 @@
 import * as React from "react";
 import Grid from "@mui/material/Grid";
-import MdsButton from "./components/MdsButton/MdsButton";
+import  MdsButton from "./components/MdsButton/MdsButton";
 import { makeStyles } from "@material-ui/core/styles";
 import { red } from "@material-ui/core/colors";
 
@@ -19,8 +19,7 @@ function App() {
     <div className="App">
       <Grid spacing={5} container={true} className={classes.root}>
         <Grid item xs={3}>
-          <MdsButton variant="contained" color="primary">
-            Primary
+          {/* <MdsButton variant="contained" color="primary" label="Primary">
           </MdsButton>
         </Grid>
         <Grid item xs={3}>
@@ -56,7 +55,7 @@ function App() {
         <Grid item xs={3}>
           <MdsButton variant="outlined" color="info">
             Info
-          </MdsButton>
+  </MdsButton> */}
         </Grid>
       </Grid>
     </div>
