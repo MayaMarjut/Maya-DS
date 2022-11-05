@@ -19,6 +19,7 @@ export interface ButtonProps extends ButtonBaseProps {
   handleClick: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 }
 
+/** MdsButton is basic button component in Maya-DS*/
 const MdsButton = ({ label, handleClick, ...props }: ButtonProps) => {
   return(
     <MuiButton {...props} onClick={handleClick}>{label}</MuiButton>
