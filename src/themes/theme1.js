@@ -23,6 +23,11 @@ export const theme1 = createTheme({
       dark: "#00B887",
       contrastText: "#2D2F35",
     },
+    neutral: {
+      main: "#545863",
+      light: "#E3E5E8",
+      dark: "#2D2F35",
+    },
   },
   typography: {
     body1: {
@@ -55,7 +60,6 @@ export const theme1 = createTheme({
           },
           "&:focus": {
             backgroundColor: "#00CEE0",
-            border: "2px solid #fff",
           },
         },
         containedSecondary: {
@@ -65,7 +69,6 @@ export const theme1 = createTheme({
           },
           "&:focus": {
             backgroundColor: "#F2612C",
-            border: "2px solid #fff",
           },
         },
         containedSuccess: {
@@ -75,7 +78,6 @@ export const theme1 = createTheme({
           },
           "&:focus": {
             backgroundColor: "#00B887",
-            border: "2px solid #fff",
           },
         },
         containedInfo: {
@@ -85,7 +87,6 @@ export const theme1 = createTheme({
           },
           "&:focus": {
             backgroundColor: "#817BB7",
-            border: "2px solid #fff",
           },
         },
         outlined: {

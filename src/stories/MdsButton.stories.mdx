@@ -1,0 +1,63 @@
+import { ArgsTable, Meta, Story, Canvas } from '@storybook/addon-docs';
+import MdsButton from "../components/MdsButton/MdsButton";
+
+<Meta title="MDX/MdsButton" component={MdsButton} />
+
+export const Template = (args) => <MdsButton {...args} />;
+
+# MdsButton
+
+Buttons allow users to take actions, and make choices, with a single tap.
+
+
+## Priority
+
+
+###  Example
+
+Buttons are categorized by importance and can be applied to a variety of html nodes. Each variation has intention and should be used sparingly.
+
+<Canvas>
+  <Story 
+    name="Default" 
+    args={{ label: 'Primary', variant: 'contained', color: 'primary'}}
+    >
+    {Template.bind({})}
+  </Story>
+    <Story 
+    name="Caution" 
+    args={{ label: 'Secondary', variant: 'outlined', color: 'secondary'}}
+    >
+    {Template.bind({})}
+  </Story>
+    <Story 
+    name="Important" 
+    args={{ label: 'Info', variant: 'contained', color: 'info'}}
+    >
+    {Template.bind({})}
+  </Story>
+    <Story 
+    name="Success" 
+    args={{ label: 'Success', variant: 'contained', color: 'success'}}
+    >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+###  Principles
+
+- 
+
+
+## Disabled
+
+<Canvas>
+  <Story 
+    name="Secondary" 
+    args={{ label: 'Secondary', variant: 'contained', color: 'secondary'}}
+    >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+
